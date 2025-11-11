@@ -1,2 +1,35 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: auto;
+  margin-top: 50px;
+}
 
-/* Your CSS Code here. */
+#input {
+  height: 40px;
+  font-size: 20px;
+  text-align: right;
+  margin-bottom: 10px;
+  padding-right: 5px;
+}
+
+.Container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+.btn {
+  padding: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  border: none;
+  background: #dcdcdc;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #bcbcbc;
+}
+
